@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainDiv{
+    height: 100vh;
+    width: 100%;
+    background-color: black;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerDiv{
+    height: 90%;
+    width: 80%;    
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.topDiv{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background: transparent;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+#headingDiv{
+    height: 80px;
+    width: 30%;
+    padding: 12px;
+    margin-left: 10px;    
+}
+h1{
+    font-size: 40px;
+    color: rgb(231, 231, 239);
+    border-radius: 10%;
+        
+    &:hover{
+       box-shadow: 0px 0px 10px blue; 
+       color: brown;        
+    }
+}
+
+.btnDiv{
+    height: 80px;
+    width: 70%;
+    padding: 15px;
+    display: flex;
+    justify-content: right;
+}
+
+button{
+    height: 100%;
+    width: 130px;
+    background: transparent;
+    border: none;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 40%;
+    color: rgb(226, 230, 34);
+
+    &:hover{
+        box-shadow: 0px 0px 10px blue; 
+        color: red;
+    }
+}
+
+.bottomDiv{
+    background-color: transparent;
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+    display: flex; 
+    padding: 10px;   
+}
+
+#bottomInnerDiv{
+    background-color: transparent;
+    height: 90%;
+    width: 600px;
+    font-size: 18px; 
+    color: rgb(255, 229, 229);
+    padding: 25px;
+    box-shadow: 0px 0px 5px blue; 
+    border-radius: 15%;
+
+    &:hover{
+        box-shadow: 0px 0px 9px blue;
+        color: rgb(43, 117, 9); 
+    }
+}
+
+span{
+    font-size: 17px;
+    color: aqua;
+    &:hover{
+        color: rgb(177, 52, 135); 
+    }
+}
+
+#picturediv{
+    background-color:transparent;
+    height: 90%;
+    width: 350px;
+    margin-left: 50px;
+    background-image: url(images-videos/lap.jpg);
+    background-position: center;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25%;
+    box-shadow: 0px 0px 5px blue; 
+    
+    &:hover{
+       box-shadow: 0px 0px 10px blue;       
+    }
+}
+

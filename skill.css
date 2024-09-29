@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainDiv{
+    height: 120vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerDiv{
+    height: 90%;
+    width: 80%;
+    /* background-color: rgba(16, 16, 143, 0.374); */
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.topDiv{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background: transparent;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+#headingDiv{
+    height: 100px;
+    width: 30%;
+    padding: 12px;
+    margin-left: 10px;    
+}
+h1{
+    font-size: 40px;
+    color: rgb(226, 226, 232);
+    border-radius: 10%;
+        
+    &:hover{
+       box-shadow: 0px 0px 10px blue; 
+       color: brown;        
+    }
+}
+
+.btnDiv{
+    height: 80px;
+    width: 70%px;
+    padding: 15px;
+    display: flex;
+    justify-content: right;
+}
+
+button{
+    height: 100%;
+    width: 130px;
+    background: transparent;
+    border: none;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 40%;
+    color: red;
+
+    &:hover{
+        box-shadow: 0px 0px 10px blue; 
+        color: aqua;
+    }
+}
+
+.bottomDiv{
+    background-color: transparent;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    display: flex; 
+    justify-content: space-evenly;  
+    margin-top: 15px; 
+    margin-bottom: 30px;
+    
+}
+
+.skillDiv{
+    width: 30%;
+    height: 200px;
+    background-color: transparent;
+    padding: 8PX;
+    border: 2px double black;
+    font-size: 14PX;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: greenyellow;
+
+    &:hover{
+        box-shadow: 0px 0px 10px blue; 
+        color: red;
+    }
+}
+
+h2{
+    font-weight: 900;
+
+    &:hover{
+        box-shadow: 0px 0px 10px blue; 
+        color: rgb(9, 6, 205);
+    }
+
+}
+
+video{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    transform: scalex(1.05) scaleY(1.15)
+}

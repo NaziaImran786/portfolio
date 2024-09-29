@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainDiv{
+    height: 100vh;
+    width: 100%;
+    background-color: black;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerDiv{
+    height: 90%;
+    width: 80%;   
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.topDiv{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background: transparent;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+#headingDiv{
+    height: 100px;
+    width: 30%;
+    padding: 12px;
+    margin-left: 10px;    
+}
+h1{
+    font-size: 40px;
+    color: rgb(239, 239, 245);
+    border-radius: 10%;
+        
+    &:hover{
+       box-shadow: 0px 0px 10px blue; 
+       color: brown;        
+    }
+}
+
+.btnDiv{
+    height: 80px;
+    width: 70%;
+    padding: 15px;
+    display: flex;
+    justify-content: right;
+}
+
+button{
+    height: 100%;
+    width: 130px;
+    background: transparent;
+    border: none;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 40%;
+    color: aquamarine;
+
+    &:hover{
+        box-shadow: 0px 0px 10px blue; 
+        color: red;
+    }
+}
+
+.bottomDiv{
+    background-color: transparent;
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#inputDiv{
+    width: 670px;
+    height: 100%;
+    background-color: transparent;
+    color: greenyellow;
+
+}
+
+#inputDiv input{
+    width: 550px;
+    height: 30px;
+    border-color: gold; 
+    color: rgb(241, 241, 236);  
+
+    &:hover{
+        box-shadow: 0px 0px 10px rgb(193, 236, 25); 
+        color: red;  
+    }
+}
+
+#comments{
+    border: 2px solid rgb(64, 64, 242);
+    width: 550px;
+       
+    &:hover{
+        box-shadow: 0px 0px 15px gold; 
+        color: red;
+    }
+}
+.submit{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+#submit{
+    background: transparent;
+    height: 30px;
+    width: 150px;    
+    border-color: rgb(47, 47, 196);
+    font-size: 22px;
+    color:rgb(238, 238, 244);
+
+    &:hover{
+        box-shadow: 0px 0px 10px gold; 
+        color: red;      
+     }  
+}
+
+#picDiv{
+    background-color:transparent;
+    height: 100%;
+    width: 200px;
+    border-radius: 30%;
+    box-shadow: 0px 0px 8px blue; 
+    display: inline-block;  
+    
+    &:hover{
+       box-shadow: 0px 0px 15px blue;       
+    }
+}
+
+#callDiv{
+    height: 150px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#emailDiv{
+    height: 150px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logobtn{
+    height: 80px;
+    width: 80;
+    background-color: brown;    
+}
+
+#call{
+    background-image: url(images-videos/call\ logo.jpeg);
+    background-position: center;
+    background-size: calc(100%);
+}
+
+#email{
+    background-image: url(images-videos/email\ logo.jpeg);
+    background-position: center;
+    background-size: calc(100%);
+}
+
+
